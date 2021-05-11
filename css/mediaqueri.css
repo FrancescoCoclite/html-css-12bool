@@ -1,7 +1,4 @@
-@media screen and (max-width: 470px) {
-    [class*="col-"] {
-        flex: 0 0 auto;
-    } 
+@media screen and (min-width: 660px) {
       /* 12 System */
     .col-mb {
         flex-grow: 1;
