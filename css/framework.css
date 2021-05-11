@@ -13,7 +13,6 @@
     width: 100%;
     margin: 0 auto;
 }
-} 
 
 .row {
     display: flex;
@@ -110,7 +109,7 @@
 }
 .col-xs-offset-11 {
     margin-left: calc((100% / 12) * 11);
-@@ -111,3 +123,22 @@
+}
 .end-xs {
     justify-content: flex-end;
 }
