@@ -1,22 +1,19 @@
 .box{
-    min-height: 50px;
+    display: flex;
+    min-height: 200px;
     background-color: #FFC0CB;
     border: 1px solid black;
-    padding: 50px 0px;
-    text-align: center;
     color: black;
+    line-height: 200px;
+    align-items: center;
+    justify-content: center;
+    
 }
 .box-nested {
-    background-color:green;
-    border: 1px solid white;
-    min-height: 50px;
+    display: flex;
+    background-color:#F07F80;
+    border: 1px solid black;
+    min-height: 200px;
+    align-items: center;
+    justify-content: center;
 }
-
-.box-nested2 {
-    background-color:red;
-    border: 1px solid white;
-    min-height: 50px;
-}
-
-.box-large {
-    min-height: 100px;
